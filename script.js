@@ -20,7 +20,7 @@ function calcular() {
     const pagoFijo = 16918.16;
     const total = precioConvertido + totalImpuesto + fees + edson + pagoFijo;
 
-    document.getElementById("precioOriginal").textContent = "Q" + precio.toFixed(2);
+    document.getElementById("precioOriginal").textContent = "$" + precio.toFixed(2);
     document.getElementById("precioConvertido").textContent = "Q" + precioConvertido.toFixed(2);
     document.getElementById("totalImpuesto").textContent = "Q" + totalImpuesto.toFixed(2);
     document.getElementById("total").textContent = "Q" + total.toFixed(2);
