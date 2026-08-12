@@ -15,8 +15,8 @@ function calcular() {
 
     const precioConvertido = precio * tipoCambio;
     const totalImpuesto = precioConvertido * (porcentajeImpuesto / 100);
-    const fees = 500;
-    const edson = 200;
+    const fees = 500 * tipoCambio;
+    const edson = 200 * tipoCambio;
     const pagoFijo = 16918.16;
     const total = precioConvertido + totalImpuesto + fees + edson + pagoFijo;
 
